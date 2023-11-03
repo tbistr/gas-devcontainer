@@ -1,0 +1,12 @@
+{
+    "name": "Node.js & TypeScript",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
+        }
+    },
+    "remoteUser": "node"
+}
