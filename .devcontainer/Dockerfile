@@ -8,4 +8,4 @@ RUN apt-get update && \
 
 RUN npm install -g yarn
 
-RUN npm install -g @google/clasp @google/aside
+RUN yarn global add @google/clasp @google/aside
