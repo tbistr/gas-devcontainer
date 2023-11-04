@@ -1,10 +1,12 @@
 {
     "scripts": {
+        "clean": "rimraf build dist",
         "build": "node build.js"
     },
     "devDependencies": {
         "@types/google-apps-script": "^1.0.76",
         "esbuild": "^0.19.5",
-        "esbuild-gas-plugin": "^0.8.0"
+        "esbuild-gas-plugin": "^0.8.0",
+        "rimraf": "^5.0.5"
     }
 }
